@@ -1,0 +1,90 @@
+html {
+    background: url("../PokemonBattle/pokeAssets/background-scene---image1.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+#arena {
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    color: white;
+}
+
+#pokemon {
+    font-size: 26px;
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 0%;
+}
+#Search {
+    height: 17px;
+    width: 220px;
+}
+#opponent {
+    font-size: 26px;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 0%;
+}
+#search1 {
+    height: 17px;
+    width: 220px;
+}
+
+.submit {
+    font-size: 18px;
+    position: absolute;
+    top: 42%;
+    left: 10%;
+    height: 40px;
+    width: 70px;
+}
+
+.moveset {
+    position: absolute;
+    top: 45%;
+    right: 7%;
+    list-style-type: none;
+}
+
+.moveset1 {
+    position: absolute;
+    bottom: 25%;
+    left: 10%;
+    list-style-type: none;
+}
+#imageOne {
+    /* background-color: white; */
+    position: fixed;
+    top: 20%;
+    right: 12%;
+    transition-duration: 1s;
+}
+
+#name1 {
+    position: fixed;
+    top: 38%;
+    right: 8%; 
+    font-size: 24px;
+    color: white;
+    text-transform: capitalize;
+}
+
+#imageTwo {
+    position: absolute;
+    bottom: -5%;
+    left: 20%;
+}
+
+#name2 {
+    position: fixed;
+    bottom: 32%;
+    left: 13%;
+    font-size: 24px;
+    color: white;
+    text-transform: capitalize;
+}
